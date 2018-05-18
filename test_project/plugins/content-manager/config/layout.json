@@ -1,0 +1,18 @@
+{
+  "expenses": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      },
+      "description": {
+        "appearance": ""
+      },
+      "date": {
+        "appearance": ""
+      },
+      "amount": {
+        "appearance": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "expenses",
+  "info": {
+    "name": "expenses",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "maxLength": 1000,
+      "type": "text",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "amount": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

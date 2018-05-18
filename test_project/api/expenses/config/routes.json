@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/expenses",
+      "handler": "Expenses.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/expenses/:_id",
+      "handler": "Expenses.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/expenses",
+      "handler": "Expenses.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/expenses/:_id",
+      "handler": "Expenses.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/expenses/:_id",
+      "handler": "Expenses.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
